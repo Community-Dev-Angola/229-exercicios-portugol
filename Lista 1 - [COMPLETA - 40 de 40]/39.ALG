@@ -1,0 +1,19 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/10/2019
+Var
+   // Seção de Declarações das variáveis
+   salario,c1,c2,salarioF:real
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   salario:=1200
+   c1:=200+0.02*200
+   c2:=120+0.02*120
+   salarioF:=salario-(c1+c2)
+   escreva("Do salário restará: R$ ",salarioF)
+
+Fimalgoritmo
